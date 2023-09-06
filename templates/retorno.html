@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Flask</title>
+</head>
+<body>
+<h1>
+    Teste Flask
+</h1>
+<form method="POST" action="/retorno">
+    <label>
+        Nome do aluno:
+        <input type="text" name="name" required>
+        <br>
+    </label>
+</form>
+<p>Nome do aluno: {{nome}}</p>
+<p>Matrícula do aluno: {{dados}}</p>
+</body>
+</html>
