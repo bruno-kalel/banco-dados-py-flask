@@ -1,2 +1,2 @@
-# manipulacao-banco-dados-python
+# manipulacao-bd-python-flask
  
